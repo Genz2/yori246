@@ -36,6 +36,7 @@ view: order_items {
   }
   measure: count {
     type: count
+    value_format: "0.00"
     drill_fields: [id, orders.id, inventory_items.id]
   }
 }
